@@ -1,7 +1,7 @@
 import pickle
 import streamlit as st
 
-diabetes_model = pickle.load(open('./saved_models/diabetes_model.sav', 'rb'))
+diabetes_model = pickle.load(open('../saved_models/diabetes_model.sav', 'rb'))
 
 st.set_page_config(page_title="Diabetes Prediction", page_icon="📈")
 st.markdown("# Diabetes Prediction")

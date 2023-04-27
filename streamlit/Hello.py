@@ -1,26 +1,6 @@
 import pickle
 import streamlit as st
-from streamlit_option_menu import option_menu
 
-# with st.sidebar:
-#     selected = option_menu("HDDP",
-#                            ["General information",
-#                             "Disease Prediction",
-#                             "Heart Disease Prediction",
-#                             "Inquiry"],
-#                            default_index=0)
-
-#     if (selected == 'General Infromation'):
-#         st.write('#General')
-
-#     if (selected == 'Diabetes Prediction'):
-#         st.write('#Diabetes')
-
-#     if (selected == 'Heart disease Prediction'):
-#         st.title('Heart')
-
-#     if (selected == 'Inquiry'):
-#         st.title('Inquiry')
 
 st.set_page_config(
     page_title="Hello",
