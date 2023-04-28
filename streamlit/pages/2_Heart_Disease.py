@@ -2,7 +2,7 @@ import pickle
 import streamlit as st
 
 hd_model = pickle.load(
-    open('/saved_models/heart_disease_model.sav','rb'))
+    open('./saved_models/heart_disease_model.sav','rb'))
 
 st.set_page_config(page_title="Heart Disease Prediction", page_icon="📈")
 st.markdown("# Heart Disease Prediction")
