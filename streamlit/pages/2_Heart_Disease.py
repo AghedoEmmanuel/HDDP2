@@ -30,9 +30,9 @@ if st.button('Heart Disease Test Result'):
         [[age, sex, cp, trestbps, chol, fbs, restecg, thalach, exang, oldpeak, slope, ca, thal]])
 
     if (hd_prediction[0] == 1):
-        hd_diagnosis = "Patient has diabetes"
+        hd_diagnosis = "Patient has Heart Disease"
     else:
-        hd_diagnosis = "Patient does not have diabetes"
+        hd_diagnosis = "Patient does not have Heart Disease"
 
 st.success(hd_diagnosis)
 
