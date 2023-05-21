@@ -14,13 +14,12 @@ cp = st.number_input("Indicate the type of chest pain on a range from 0-4")
 trestbps = st.number_input("Patients resting blood pressure in mmHg")
 chol = st.number_input("Serum choestoral")
 fbs = st.number_input("Fasting blood sugar")
-restecg = st.number_input(
-    "Resting electrocardiographic results on a range from 0-2")
+restecg = st.number_input("Resting electrocardiographic results on a range from 0-2")
 thalach = st.number_input("Maximum heart rate achieved")
 exang = st.number_input("Exercise Induced Angina on a range from 0-1")
 oldpeak = st.number_input("ST depression induced by exercise relative to rest")
 slope = st.number_input("The slope of the peak exercise ST segment")
-ca = st.number_input("Number of major vessels (0-3) colored by flourosopy")
+ca = st.number_input("Number of major vessels (0-4) colored by flourosopy")
 thal = st.number_input("Thallium stress test range of 1-3")
 
 hd_diagnosis = ''
